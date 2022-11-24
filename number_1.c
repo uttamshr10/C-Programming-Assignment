@@ -11,3 +11,6 @@ int main()
 // How to run your code in VS Code Terminal (Ignore it.)
 // gcc filename with extension
 // ./a.exe
+
+// for gcc issue
+// see this link, works well : https://stackoverflow.com/questions/69827019/cannot-open-source-file-stdio-h-in-visual-studio-code
