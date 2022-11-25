@@ -21,3 +21,12 @@ int main()
         printf("%d is not a prime number.", n);
     }
 }
+
+/* Table logic. [Ignore it.]
+i           |           n = 5 (suppose)           |           c = 0
+1           |           5 % 1 = 0 (true)          |           0 + 1 = 1
+2           |           5 % 2 = 0 (false)         |           1
+3           |           5 % 3 = 0 (false)         |           1
+4           |           5 % 4 = 0 (false)         |           1
+5           |           5 % 5 = 0 (false)         |           1 + 1 = 2;
+*/
