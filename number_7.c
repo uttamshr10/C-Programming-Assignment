@@ -12,3 +12,10 @@ int main()
     }
     printf("Sum of all numbers from 1 to %d is %d.", n, sum);
 }
+
+/* Table logic [Ignore this.]
+i           |           n = 6           |           sum = sum + i;
+2           |           2 < = 6         |           0 + 2 = 2
+4           |           4 < = 6         |           2 + 4 = 6
+6           |           6 < = 6         |           6 + 6 = 12
+*/
