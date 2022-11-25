@@ -14,3 +14,14 @@ int main()
         }
     }
 }
+
+/* Ignore it.
+i       |       n = 6                                    |       divisors
+1               6 % 1 = 0                                |            1
+2               6 % 2 = 0                                |            2
+3               6 % 3 = 0                                |            3
+4               6 % 4 = 2 (which is not equal to 0.)     |            -
+5               6 % 5 = 1 (which is not equal to 0.)     |            -
+6               6 % 6 = 0                                |            6
+
+*/
